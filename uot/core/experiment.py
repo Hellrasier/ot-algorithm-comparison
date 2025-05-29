@@ -26,7 +26,7 @@ def run_experiment(experiment: 'Experiment',
         and any additional parameters used.
     """
 
-    problem_sets = [get_problemset(name, number=45) for name in problemsets_names]
+    problem_sets = [get_problemset(name, number=4) for name in problemsets_names]
     problems = [problem for problemset in problem_sets for problem in problemset]
 
     problems *= folds
