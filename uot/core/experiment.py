@@ -69,7 +69,7 @@ def run_experiment(experiment: 'Experiment',
                 for kwarg_name, value in kwargs.items():
                     solver_result[kwarg_name] = value
             
-            dfs.append(solver_result)
+                dfs.append(solver_result)
 
     df = pd.concat(dfs)
 
